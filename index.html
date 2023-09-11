@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="input-group">
+      <label for="celsius">Celsius:</label>
+      <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+      <button onclick="convertTemperature('celsius')">Convert</button>
+    </div>
+
+    <div class="input-group">
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit">
+      <button onclick="convertTemperature('fahrenheit')">Convert</button>
+    </div>
+
+    <div class="input-group">
+      <label for="kelvin">Kelvin:</label>
+      <input type="number" id="kelvin" placeholder="Enter temperature in Kelvin">
+      <button onclick="convertTemperature('kelvin')">Convert</button>
+    </div>
+
+    <div class="input-group">
+      <label for="rankine">Rankine:</label>
+      <input type="number" id="rankine" placeholder="Enter temperature in Rankine">
+      <button onclick="convertTemperature('rankine')">Convert</button>
+    </div>
+
+    <div class="input-group">
+      <label for="reamur">Reamur:</label>
+      <input type="number" id="reamur" placeholder="Enter temperature in Reamur">
+      <button onclick="convertTemperature('reamur')">Convert</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
